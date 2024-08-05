@@ -13,7 +13,7 @@ default:
   chart: false
   toc:
     selectors: 'h1,h2,h3'
-  sources: bootcdn
+  sources: jsdelivr
 
   page:
     mode: normal
@@ -40,7 +40,7 @@ default:
     search: default
 
 sources:
-  bootcdn:
+  jsdelivr:
     font_awesome: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css'
     jquery: 'https://cdn.jsdelivr.net/npm/jquery@3.1.1/dist/jquery.min.js'
     leancloud_js_sdk: '//cdn.jsdelivr.net/npm/leancloud-storage@3.13.2/dist/av-min.js'
@@ -48,7 +48,7 @@ sources:
     gitalk:
       js: 'https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.min.js'
       css: 'https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.min.css'
-    valine: 'https://unpkg.com/valine/dist/Valine.min.js' # bootcdn not available
+    valine: 'https://unpkg.com/valine/dist/Valine.min.js' # jsdelivr not available
     mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
     mermaid: 'https://cdn.jsdelivr.net/npm/mermaid@8.0.0-rc.8/dist/mermaid.min.js'
   unpkg:
@@ -62,3 +62,4 @@ sources:
     valine: 'https//unpkg.com/valine/dist/Valine.min.js'
     mathjax: 'https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
     mermaid: 'https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js'
+
