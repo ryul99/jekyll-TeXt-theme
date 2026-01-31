@@ -214,10 +214,12 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  - scope:
+      path: ""
+    values:
       image:
         path: /assets/icons/ms-icon-310x310.png
         alt: profile image
-
 
 
 ## => Plugins
